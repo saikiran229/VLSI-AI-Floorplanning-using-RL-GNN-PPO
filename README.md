@@ -4,7 +4,7 @@ An AI-driven VLSI floorplanning framework that combines **Graph Neural Networks 
 
 ---
 
-# 🚀 Project Overview
+# Project Overview
 
 Traditional VLSI floorplanning techniques rely heavily on simulated annealing, heuristic optimization, and manual tuning. As modern netlists scale into millions of components, these approaches become computationally expensive and difficult to optimize globally.
 
@@ -23,7 +23,7 @@ The framework is capable of learning placement policies through iterative intera
 
 ---
 
-# 🧠 Core Technologies
+# Core Technologies
 
 | Category | Tools & Frameworks |
 |---|---|
@@ -38,7 +38,7 @@ The framework is capable of learning placement policies through iterative intera
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 ```text
 Netlist Input
@@ -92,7 +92,7 @@ VLSI-AI-Floorplanning-using-RL-GNN-PPO/
 
 ---
 
-# ⚙️ Linux Setup & Installation Guide
+# Linux Setup & Installation Guide
 
 This project was developed and validated entirely inside an Ubuntu Linux VirtualBox environment.
 
@@ -151,7 +151,7 @@ pip install gymnasium gdstk matplotlib tensorboard
 
 ---
 
-# 🚀 Training Pipeline
+# Training Pipeline
 
 The training system consists of modular scripts responsible for:
 
@@ -177,7 +177,7 @@ python3 src/train/main_train.py
 
 ---
 
-# 🔍 Inference & Visualization
+# Inference & Visualization
 
 After training completes, run inference on unseen netlists:
 
@@ -193,7 +193,7 @@ xdg-open advanced_layout.png
 
 ---
 
-# 🧩 Export Physical Layout (GDSII)
+# Export Physical Layout (GDSII)
 
 Export the optimized placement into production-compatible GDSII format:
 
@@ -209,7 +209,7 @@ klayout output_layout.gds
 
 ---
 
-# 📊 Training Results
+# Training Results
 
 The PPO agent was trained for approximately:
 
@@ -222,7 +222,7 @@ The framework demonstrated strong convergence behavior and learned highly optimi
 
 ---
 
-# ✅ Performance Metrics
+# Performance Metrics
 
 ## Collision Elimination
 
@@ -261,7 +261,7 @@ Best Legal HPWL: 114
 
 ---
 
-# 📈 TensorBoard Monitoring
+# TensorBoard Monitoring
 
 TensorBoard was used to monitor:
 
@@ -285,7 +285,7 @@ http://localhost:6006
 
 ---
 
-# 🖼️ Generated Outputs
+# Generated Outputs
 
 The framework generates:
 
@@ -302,7 +302,7 @@ advanced_layout.png
 
 ---
 
-# 🔬 AI Methodology
+# AI Methodology
 
 ## Graph Neural Networks (GNN)
 
@@ -345,7 +345,7 @@ And rewards:
 
 ---
 
-# 🎯 Future Improvements
+# Future Improvements
 
 Potential future enhancements include:
 
@@ -359,7 +359,7 @@ Potential future enhancements include:
 
 ---
 
-# 📚 Research Inspiration
+# Research Inspiration
 
 This project is inspired by modern AI-driven EDA research involving:
 
@@ -370,7 +370,7 @@ This project is inspired by modern AI-driven EDA research involving:
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 Developed as an advanced AI + VLSI infrastructure research project focused on intelligent chip floorplanning and reinforcement learning-driven EDA automation.
 
