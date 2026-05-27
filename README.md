@@ -376,7 +376,7 @@ Developed as an advanced AI + VLSI infrastructure research project focused on in
 
 ---
 
-# 📜 License
+# License
 
 This project is intended for research and educational purposes.
 
