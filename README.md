@@ -18,13 +18,13 @@ This entire project was built, verified, and executed inside a Linux VirtualBox 
 
 ### 1. System Preparation & Dependencies
 Update your Linux package database and install critical system-level utilities for Python development and GDSII handling:
-```bash
+
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3-pip python3-dev python3-venv klayout -y
 2. Project Workspace & Virtual Environment Setup
-Clone or construct your workspace directory and isolate dependencies within a dedicated Python virtual environment (vlsi_ai_env):
+Construct your workspace directory and isolate dependencies within a dedicated Python virtual environment (vlsi_ai_env):
 
-Bash
+
 # Navigate to your home directory and initialize the project folder
 cd ~/
 mkdir vlsi_ai_project && cd vlsi_ai_project
@@ -32,10 +32,10 @@ mkdir vlsi_ai_project && cd vlsi_ai_project
 # Create and activate the isolated virtual environment
 python3 -m venv vlsi_ai_env
 source vlsi_ai_env/bin/activate
-3. Installing Python packages
+3. Installing Python Packages
 Install the custom machine learning and EDA parsing libraries required for the floorplanning pipeline:
 
-Bash
+
 pip install --upgrade pip
 pip install torch torchvision
 pip install torch-geometric
@@ -43,7 +43,7 @@ pip install stable-baselines3[extra] gymnasium gdstk matplotlib tensorboard
 4. Executing the Training Pipeline
 The training pipeline consists of ~8 modular scripts controlling data preprocessing, graph construction, reward design, and policy steps. To initialize TensorBoard monitoring and kick off the PPO training loop:
 
-Bash
+
 # Launch TensorBoard in the background to monitor convergence metrics
 tensorboard --logdir=runs/ &
 
@@ -52,7 +52,6 @@ python3 src/train/main_train.py
 5. Running Prediction, Inference & GDSII Export
 The prediction pipeline utilizes ~3 scripts to load the trained policy, infer legal positions on unseen subnets, render geometric plots, and extract production-ready layouts.
 
-Bash
 # Run AI inference to place nodes based on the learned policy and generate visualizations
 python3 src/predict/visualize_placement.py
 
@@ -78,13 +77,3 @@ src/train/: Houses the ~8 scripts governing the Gymnasium environment, GNN archi
 src/predict/: Houses the ~3 scripts handling inference execution, macro placement rendering via Matplotlib, and GDSII extraction layout tools.
 
 advanced_layout.png: Visual layout plot export mapping out Macros, standard cells, and netlist connections.
-
-
----
-
-### **Phase 5: Commit and Save**
-Scroll to the bottom of the editor page, leave a commit message like `"Completed premium Linux-centric README documentation"`, and click the green **Commit changes** button.
-
-You have now built a beautifully detailed, incredibly technical repository front page. This document perfectly tells an AMD team that you know how to work inside a Linux environment, manage virtual configurations, structure complex codebases, and use data-driven architectures to solve hard VLSI problems. 
-
-How does it feel seeing your full project repository framework live on your GitHub profile?
