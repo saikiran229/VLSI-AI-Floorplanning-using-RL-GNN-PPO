@@ -309,8 +309,6 @@ The framework generates:
 - Production-ready GDSII layouts
 
 
-
-
 ---
 
 # AI Methodology
@@ -411,9 +409,6 @@ Visualization of parsed node information extracted from benchmark netlists.
 NODES.png
 ```
 
-> Add PNG image here
-
-
 ![Input Nodes](<ISPD 2005/data/adaptec1/Adaptec1_Data_visualize/NODES.png>)
 
 
@@ -424,14 +419,11 @@ NODES.png
 Visualization of net connectivity relationships between nodes/macros.
 
 ```text
-net_data_visualization.png
+NETS.png
 ```
 
-> Add PNG image here
+![Input Netlist Nets](<ISPD 2005/data/adaptec1/Adaptec1_Data_visualize/NETS.png>)
 
-```markdown
-![Input Netlist Nets](path_to_image.png)
-```
 
 ---
 
@@ -440,14 +432,11 @@ net_data_visualization.png
 Graph representation generated after converting the raw netlist into a GNN-compatible structure.
 
 ```text
-built_graph_visualization.png
+NETLIST to GRAPH.png
 ```
 
-> Add PNG image here
+![Built Graph](<ISPD 2005/data/adaptec1/Adaptec1_Data_visualize/NETLIST to GRAPH.png>)
 
-```markdown
-![Built Graph](path_to_image.png)
-```
 
 ---
 
@@ -461,11 +450,9 @@ TensorBoard convergence metrics and PPO learning statistics captured after appro
 training_200k_log.png
 ```
 
-> Add PNG image here
 
-```markdown
-![200k PPO Training Log](path_to_image.png)
-```
+![200k PPO Training Log](<Klayout Outputs/TRAINING AT DIFF ITERATIONS/200k Steps/Screenshot 2026-05-12 081814.png>)
+
 
 ---
 
@@ -477,11 +464,9 @@ Physical layout generated after PPO convergence and exported through KLayout-com
 klayout_output_200k.png
 ```
 
-> Add PNG image here
 
-```markdown
-![KLayout Output 200k](path_to_image.png)
-```
+![KLayout Output 200k](<Klayout Outputs/TRAINING AT DIFF ITERATIONS/200k Steps/Screenshot 2026-05-12 090623.png>)
+
 
 ---
 
@@ -499,10 +484,8 @@ Comparison of floorplanning quality across different PPO training stages:
 comparison_iterations.png
 ```
 
-> Add PNG image here
 
-```markdown
-![Training Comparison](path_to_image.png)
+![Training Comparison](Klayout Outputs/TRAINING AT DIFF ITERATIONS/COMPARISION.png)
 ```
 
 ---
@@ -517,11 +500,9 @@ Inference results generated on unseen benchmark netlists using transfer learning
 predicted_bigblue_layout.png
 ```
 
-> Add PNG image here
 
-```markdown
-![Predicted BigBlue Layout](path_to_image.png)
-```
+![Predicted BigBlue Layout](<Klayout Outputs/PREDICTION of New Netlist/Screenshot 2026-05-13 014222.png>)
+
 
 ---
 
@@ -533,10 +514,8 @@ Inference logs and placement statistics generated during prediction and transfer
 prediction_log.png
 ```
 
-> Add PNG image here
 
-```markdown
-![Prediction Log](path_to_image.png)
-```
+![Prediction Log](<Klayout Outputs/PREDICTION of New Netlist/Screenshot 2026-05-13 014304.png>)
+
 
 ---
