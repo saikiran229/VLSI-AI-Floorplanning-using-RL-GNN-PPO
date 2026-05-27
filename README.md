@@ -414,7 +414,7 @@ NODES.png
 > Add PNG image here
 
 ```markdown
-![Input Netlist Nodes](<ISPD 2005/data/adaptec1/Adaptec1_Data_visualize/NODES.png>)
+![Input Nodes](ISPD%202005/data/adaptec1/Adaptec1_Data_visualize/NODES.png)
 ```
 
 ---
