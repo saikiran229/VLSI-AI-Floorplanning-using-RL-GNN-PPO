@@ -1,4 +1,3 @@
-````markdown
 # VLSI-AI-Floorplanning-using-RL-GNN-PPO
 
 An AI-driven VLSI floorplanning framework that combines **Graph Neural Networks (GNNs)** with **Proximal Policy Optimization (PPO)** reinforcement learning to automate macro and standard-cell placement while minimizing wirelength and eliminating overlaps.
@@ -382,4 +381,3 @@ Developed as an advanced AI + VLSI infrastructure research project focused on in
 This project is intended for research and educational purposes.
 
 You may modify and extend the framework for academic or experimental use.
-````
