@@ -486,6 +486,7 @@ comparison_iterations.png
 
 
 ![Training Comparison](Klayout Outputs/TRAINING AT DIFF ITERATIONS/COMPARISION.png)
+
 ```
 
 ---
@@ -503,6 +504,7 @@ predicted_bigblue_layout.png
 
 ![Predicted BigBlue Layout](<Klayout Outputs/PREDICTION of New Netlist/Screenshot 2026-05-13 014222.png>)
 
+---
 
 ---
 
