@@ -65,19 +65,20 @@ VLSI-AI-Floorplanning-using-RL-GNN-PPO/
 │
 ├── src/
 │   ├── train/
-│   │   ├── environment.py
-│   │   ├── reward_engine.py
-│   │   ├── graph_builder.py
-│   │   ├── gnn_model.py
-│   │   ├── placement_engine.py
-│   │   ├── utils.py
-│   │   ├── config.py
-│   │   └── main_train.py
+│   │   ├── Build_graph.py
+│   │   ├── Visualize_graph.py
+│   │   ├── Model_gnn.py
+│   │   ├── Reward_engine.py
+│   │   ├── Run_perception.py
+│   │   ├── Train_agent.py
+│   │   ├── Vlsi_env.py
+│   │   ├── Visualize_output.py
+│   │   └── Export_klayout.py
 │   │
 │   └── predict/
-│       ├── visualize_placement.py
-│       ├── export_klayout.py
-│       └── inference_engine.py
+│       ├── Build_graph_BB.py
+│       ├── Run_perception_BB.py
+│       └── Transfer_learning.py
 │
 ├── runs/
 │   └── TensorBoard logs
