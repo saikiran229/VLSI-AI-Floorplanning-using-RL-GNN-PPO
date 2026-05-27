@@ -308,11 +308,155 @@ The framework generates:
 - TensorBoard convergence graphs
 - Production-ready GDSII layouts
 
-Example generated artifact:
+
+
+---
+
+# Visualization & Output Gallery
+
+The following outputs were generated during graph construction, PPO training, inference, and physical layout export stages.
+
+---
+
+# Input Netlist Processing Visualizations
+
+## 1️⃣ Input Netlist Data Nodes
+
+Visualization of parsed node information extracted from benchmark netlists.
 
 ```text
-advanced_layout.png
+NODES.png
 ```
+
+> Add PNG image here
+
+```markdown
+![Input Netlist Nodes](NODES.png)
+```
+
+---
+
+## 2️⃣ Input Netlist Data Nets
+
+Visualization of net connectivity relationships between nodes/macros.
+
+```text
+net_data_visualization.png
+```
+
+> Add PNG image here
+
+```markdown
+![Input Netlist Nets](path_to_image.png)
+```
+
+---
+
+## 3️⃣ Built Graph Representation of Netlist
+
+Graph representation generated after converting the raw netlist into a GNN-compatible structure.
+
+```text
+built_graph_visualization.png
+```
+
+> Add PNG image here
+
+```markdown
+![Built Graph](path_to_image.png)
+```
+
+---
+
+# PPO Training & Placement Outputs
+
+## 1️⃣ PPO Training Logs (200k Timesteps)
+
+TensorBoard convergence metrics and PPO learning statistics captured after approximately 200,000 training timesteps.
+
+```text
+training_200k_log.png
+```
+
+> Add PNG image here
+
+```markdown
+![200k PPO Training Log](path_to_image.png)
+```
+
+---
+
+## 2️⃣ KLayout Output at 200k Timesteps
+
+Physical layout generated after PPO convergence and exported through KLayout-compatible GDSII flow.
+
+```text
+klayout_output_200k.png
+```
+
+> Add PNG image here
+
+```markdown
+![KLayout Output 200k](path_to_image.png)
+```
+
+---
+
+## 3️⃣ Placement Comparison Across Training Iterations
+
+Comparison of floorplanning quality across different PPO training stages:
+
+- 2k Steps
+- 20k Steps
+- 50k Steps
+- 100k Steps
+- 200k Steps
+
+```text
+comparison_iterations.png
+```
+
+> Add PNG image here
+
+```markdown
+![Training Comparison](path_to_image.png)
+```
+
+---
+
+# Prediction & Transfer Learning Outputs
+
+## 4️⃣ Predicted KLayout Output for New Circuit (BigBlue)
+
+Inference results generated on unseen benchmark netlists using transfer learning and the trained PPO placement policy.
+
+```text
+predicted_bigblue_layout.png
+```
+
+> Add PNG image here
+
+```markdown
+![Predicted BigBlue Layout](path_to_image.png)
+```
+
+---
+
+## 5️⃣ Prediction Logs
+
+Inference logs and placement statistics generated during prediction and transfer-learning evaluation.
+
+```text
+prediction_log.png
+```
+
+> Add PNG image here
+
+```markdown
+![Prediction Log](path_to_image.png)
+```
+
+---
 
 ---
 
