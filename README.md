@@ -63,30 +63,43 @@ Visualization & GDSII Export
 ```text
 VLSI-AI-Floorplanning-using-RL-GNN-PPO/
 │
-├── src/
-│   ├── train/
-│   │   ├── Build_graph.py
-│   │   ├── Visualize_graph.py
-│   │   ├── Model_gnn.py
-│   │   ├── Reward_engine.py
-│   │   ├── Run_perception.py
-│   │   ├── Train_agent.py
-│   │   ├── Vlsi_env.py
-│   │   ├── Visualize_output.py
-│   │   └── Export_klayout.py
-│   │
-│   └── predict/
-│       ├── Build_graph_BB.py
-│       ├── Run_perception_BB.py
-│       └── Transfer_learning.py
+├── ISPD 2005/
+│   ├── data/
+│       ├── adaptec1/
+│       └── bigblue1/
+├── sripts/
+│   ├── src/
+│       ├── train/
+│           ├── Build_graph.py
+│           ├── Visualize_graph.py
+│           ├── Model_gnn.py
+│           ├── Reward_engine.py
+│           ├── Run_perception.py
+│           ├── Train_agent.py
+│           ├── Vlsi_env.py
+│           ├── Visualize_output.py
+│           └── Export_klayout.py
+│    
+│       └── predict/
+│           ├── Build_graph_BB.py
+│           ├── Run_perception_BB.py
+│           └── Transfer_learning.py
 │
-├── runs/
-│   └── TensorBoard logs
+├── Runs/
+│   ├── GNN_embeddings/
+│   └── Graph_Outputs_Tensorboard/
 │
-├── advanced_layout.png
-│
-├── models/
-│   └── trained PPO policies
+├── Klayout Outputs/
+│   ├── PREDICTION of New Netlist/
+│   └── TRAINING AT DIFF ITERATIONS/
+│          ├── 2k Steps
+│          ├── 20k Steps
+│          ├── 50k Steps
+│          ├── 100k Steps
+│          ├── 200k Steps
+│          └── COMPARISION.png
+├── Trained_Model/
+│   └── vlsi_master_model.zip
 │
 └── README.md
 ```
