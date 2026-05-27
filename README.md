@@ -310,6 +310,89 @@ The framework generates:
 
 
 
+
+---
+
+# AI Methodology
+
+## Graph Neural Networks (GNN)
+
+The netlist is transformed into a graph where:
+
+- Nodes represent:
+  - Macros
+  - Standard cells
+- Edges represent:
+  - Net connectivity
+
+The GNN learns:
+
+- Spatial dependencies
+- Connectivity patterns
+- Structural embeddings
+
+---
+
+## PPO Reinforcement Learning
+
+The PPO agent interacts with a custom Gymnasium environment and learns:
+
+- Legal placement actions
+- Congestion-aware positioning
+- Wirelength minimization
+- Overlap avoidance
+
+The reward system penalizes:
+
+- Cell overlaps
+- Illegal regions
+- Long routing paths
+
+And rewards:
+
+- Compact placement
+- Legal positioning
+- Reduced HPWL
+
+---
+
+# Future Improvements
+
+Potential future enhancements include:
+
+- Multi-objective optimization
+- Timing-aware placement
+- Congestion prediction models
+- Transformer-based graph encoders
+- Hierarchical floorplanning
+- ASIC benchmark integration
+- Distributed RL training
+
+---
+
+# Research Inspiration
+
+This project is inspired by modern AI-driven EDA research involving:
+
+- Deep Reinforcement Learning
+- Graph Representation Learning
+- Automated Chip Placement
+- AI-assisted Physical Design
+
+---
+
+# Author
+
+Developed as an advanced AI + VLSI infrastructure research project focused on intelligent chip floorplanning and reinforcement learning-driven EDA automation.
+
+---
+
+# License
+
+This project is intended for research and educational purposes.
+
+You may modify and extend the framework for academic or experimental use.
+
 ---
 
 # Visualization & Output Gallery
@@ -331,7 +414,7 @@ NODES.png
 > Add PNG image here
 
 ```markdown
-![Input Netlist Nodes](NODES.png)
+![Input Netlist Nodes](ISPD 2005/data/adaptec1/Adaptec1_Data_visualize/NODES.png)
 ```
 
 ---
@@ -457,85 +540,3 @@ prediction_log.png
 ```
 
 ---
-
----
-
-# AI Methodology
-
-## Graph Neural Networks (GNN)
-
-The netlist is transformed into a graph where:
-
-- Nodes represent:
-  - Macros
-  - Standard cells
-- Edges represent:
-  - Net connectivity
-
-The GNN learns:
-
-- Spatial dependencies
-- Connectivity patterns
-- Structural embeddings
-
----
-
-## PPO Reinforcement Learning
-
-The PPO agent interacts with a custom Gymnasium environment and learns:
-
-- Legal placement actions
-- Congestion-aware positioning
-- Wirelength minimization
-- Overlap avoidance
-
-The reward system penalizes:
-
-- Cell overlaps
-- Illegal regions
-- Long routing paths
-
-And rewards:
-
-- Compact placement
-- Legal positioning
-- Reduced HPWL
-
----
-
-# Future Improvements
-
-Potential future enhancements include:
-
-- Multi-objective optimization
-- Timing-aware placement
-- Congestion prediction models
-- Transformer-based graph encoders
-- Hierarchical floorplanning
-- ASIC benchmark integration
-- Distributed RL training
-
----
-
-# Research Inspiration
-
-This project is inspired by modern AI-driven EDA research involving:
-
-- Deep Reinforcement Learning
-- Graph Representation Learning
-- Automated Chip Placement
-- AI-assisted Physical Design
-
----
-
-# Author
-
-Developed as an advanced AI + VLSI infrastructure research project focused on intelligent chip floorplanning and reinforcement learning-driven EDA automation.
-
----
-
-# License
-
-This project is intended for research and educational purposes.
-
-You may modify and extend the framework for academic or experimental use.
