@@ -480,14 +480,7 @@ Comparison of floorplanning quality across different PPO training stages:
 - 100k Steps
 - 200k Steps
 
-```text
-comparison_iterations.png
-```
-
-
-![Training Comparison](Klayout Outputs/TRAINING AT DIFF ITERATIONS/COMPARISION.png)
-
-```
+![Training Comparison](Klayout%20Outputs/TRAINING%20AT%20DIFF%20ITERATIONS/COMPARISION.png)
 
 ---
 
@@ -497,12 +490,7 @@ comparison_iterations.png
 
 Inference results generated on unseen benchmark netlists using transfer learning and the trained PPO placement policy.
 
-```text
-predicted_bigblue_layout.png
-```
-
-
-![Predicted BigBlue Layout](<Klayout Outputs/PREDICTION of New Netlist/Screenshot 2026-05-13 014222.png>)
+![Predicted BigBlue Layout](Klayout%20Outputs/PREDICTION%20of%20New%20Netlist/Screenshot%202026-05-13%20014222.png)
 
 ---
 
